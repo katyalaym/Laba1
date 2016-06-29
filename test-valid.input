@@ -1,6 +1,0 @@
-var value;
-var a;
-var b;
-value = 13;
-b=6+2;
-a = b *4;

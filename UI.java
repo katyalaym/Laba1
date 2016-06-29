@@ -11,12 +11,10 @@ public class UI {
 	validTest();
 	
 		
-		
 	}
 	public static void validTest() throws Exception{
 		//utilHelper.printFile("src/test-valid.input");
 		process("src/test-valid.input");
-		
 	}
 
 	
@@ -35,7 +33,6 @@ public class UI {
 		PolizProcessor processor = new PolizProcessor(postfixTokens); 
 		
 		processor.go();
-		
 		
 	}
 	
